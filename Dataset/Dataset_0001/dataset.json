@@ -1,0 +1,24 @@
+{
+  "name": "MyInstanceDataset",
+  "description": "Instance segmentation dataset",
+  "tensorImageSize": "3D",
+  "reference": "",
+  "licence": "",
+  "release": "1.0",
+  "modality": {
+    "0": "CT"
+  },
+  "labels": {
+    "0": "background",
+    "1": "aluminum",
+    "2": "plastic",
+    "3": "steel",
+    "4": "air"
+  },
+  "numTraining": 2,
+  "training": [
+    {"image": "imagesTr/case_0000.nii.gz", "label": "instancesTr/case_0000.nii_instances.nii.gz"},
+    {"image": "imagesTr/case_0001.nii.gz", "label": "instancesTr/case_0001.nii_instances.nii.gz"}
+  ],
+  "test": []
+}
