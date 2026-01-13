@@ -1,0 +1,559 @@
+{
+  "case_0005.nii": {
+    "1": {
+      "material": "aluminum",
+      "material_label": 1,
+      "voxel_count": 9459,
+      "component_idx": 1
+    },
+    "2": {
+      "material": "unknown_16",
+      "material_label": 16,
+      "voxel_count": 23,
+      "component_idx": 1
+    },
+    "3": {
+      "material": "unknown_16",
+      "material_label": 16,
+      "voxel_count": 35,
+      "component_idx": 2
+    },
+    "4": {
+      "material": "unknown_16",
+      "material_label": 16,
+      "voxel_count": 17,
+      "component_idx": 4
+    },
+    "5": {
+      "material": "unknown_16",
+      "material_label": 16,
+      "voxel_count": 14,
+      "component_idx": 5
+    },
+    "6": {
+      "material": "unknown_20",
+      "material_label": 20,
+      "voxel_count": 28,
+      "component_idx": 1
+    },
+    "7": {
+      "material": "unknown_25",
+      "material_label": 25,
+      "voxel_count": 38,
+      "component_idx": 1
+    },
+    "8": {
+      "material": "unknown_25",
+      "material_label": 25,
+      "voxel_count": 41,
+      "component_idx": 2
+    },
+    "9": {
+      "material": "unknown_25",
+      "material_label": 25,
+      "voxel_count": 38,
+      "component_idx": 3
+    },
+    "10": {
+      "material": "unknown_25",
+      "material_label": 25,
+      "voxel_count": 67,
+      "component_idx": 4
+    },
+    "11": {
+      "material": "unknown_38",
+      "material_label": 38,
+      "voxel_count": 32,
+      "component_idx": 4
+    },
+    "12": {
+      "material": "unknown_40",
+      "material_label": 40,
+      "voxel_count": 184,
+      "component_idx": 1
+    },
+    "13": {
+      "material": "unknown_40",
+      "material_label": 40,
+      "voxel_count": 10,
+      "component_idx": 2
+    },
+    "14": {
+      "material": "unknown_40",
+      "material_label": 40,
+      "voxel_count": 158,
+      "component_idx": 3
+    },
+    "15": {
+      "material": "unknown_43",
+      "material_label": 43,
+      "voxel_count": 67,
+      "component_idx": 1
+    },
+    "16": {
+      "material": "unknown_43",
+      "material_label": 43,
+      "voxel_count": 12,
+      "component_idx": 3
+    },
+    "17": {
+      "material": "unknown_46",
+      "material_label": 46,
+      "voxel_count": 43,
+      "component_idx": 1
+    },
+    "18": {
+      "material": "unknown_46",
+      "material_label": 46,
+      "voxel_count": 28,
+      "component_idx": 5
+    },
+    "19": {
+      "material": "unknown_104",
+      "material_label": 104,
+      "voxel_count": 2116,
+      "component_idx": 1
+    },
+    "20": {
+      "material": "unknown_104",
+      "material_label": 104,
+      "voxel_count": 982,
+      "component_idx": 2
+    },
+    "21": {
+      "material": "unknown_104",
+      "material_label": 104,
+      "voxel_count": 29,
+      "component_idx": 3
+    },
+    "22": {
+      "material": "unknown_104",
+      "material_label": 104,
+      "voxel_count": 57,
+      "component_idx": 4
+    },
+    "23": {
+      "material": "unknown_104",
+      "material_label": 104,
+      "voxel_count": 53,
+      "component_idx": 5
+    },
+    "24": {
+      "material": "unknown_104",
+      "material_label": 104,
+      "voxel_count": 28,
+      "component_idx": 6
+    },
+    "25": {
+      "material": "unknown_104",
+      "material_label": 104,
+      "voxel_count": 14,
+      "component_idx": 7
+    },
+    "26": {
+      "material": "unknown_104",
+      "material_label": 104,
+      "voxel_count": 29,
+      "component_idx": 8
+    },
+    "27": {
+      "material": "unknown_166",
+      "material_label": 166,
+      "voxel_count": 610,
+      "component_idx": 1
+    },
+    "28": {
+      "material": "unknown_169",
+      "material_label": 169,
+      "voxel_count": 626,
+      "component_idx": 1
+    }
+  },
+  "case_0003.nii": {
+    "1": {
+      "material": "aluminum",
+      "material_label": 1,
+      "voxel_count": 157,
+      "component_idx": 1
+    },
+    "2": {
+      "material": "aluminum",
+      "material_label": 1,
+      "voxel_count": 10,
+      "component_idx": 2
+    },
+    "3": {
+      "material": "aluminum",
+      "material_label": 1,
+      "voxel_count": 24,
+      "component_idx": 4
+    },
+    "4": {
+      "material": "aluminum",
+      "material_label": 1,
+      "voxel_count": 24,
+      "component_idx": 5
+    },
+    "5": {
+      "material": "plastic",
+      "material_label": 2,
+      "voxel_count": 28,
+      "component_idx": 1
+    },
+    "6": {
+      "material": "plastic",
+      "material_label": 2,
+      "voxel_count": 28,
+      "component_idx": 3
+    },
+    "7": {
+      "material": "steel",
+      "material_label": 3,
+      "voxel_count": 12,
+      "component_idx": 2
+    },
+    "8": {
+      "material": "air",
+      "material_label": 4,
+      "voxel_count": 56,
+      "component_idx": 1
+    },
+    "9": {
+      "material": "unknown_49",
+      "material_label": 49,
+      "voxel_count": 38,
+      "component_idx": 1
+    },
+    "10": {
+      "material": "unknown_50",
+      "material_label": 50,
+      "voxel_count": 2160,
+      "component_idx": 1
+    },
+    "11": {
+      "material": "unknown_90",
+      "material_label": 90,
+      "voxel_count": 12,
+      "component_idx": 1
+    },
+    "12": {
+      "material": "unknown_92",
+      "material_label": 92,
+      "voxel_count": 12,
+      "component_idx": 1
+    }
+  },
+  "case_0001.nii": {
+    "1": {
+      "material": "aluminum",
+      "material_label": 1,
+      "voxel_count": 21,
+      "component_idx": 1
+    },
+    "2": {
+      "material": "plastic",
+      "material_label": 2,
+      "voxel_count": 23,
+      "component_idx": 1
+    },
+    "3": {
+      "material": "steel",
+      "material_label": 3,
+      "voxel_count": 20,
+      "component_idx": 1
+    },
+    "4": {
+      "material": "air",
+      "material_label": 4,
+      "voxel_count": 22,
+      "component_idx": 1
+    },
+    "5": {
+      "material": "unknown_5",
+      "material_label": 5,
+      "voxel_count": 23,
+      "component_idx": 1
+    },
+    "6": {
+      "material": "unknown_6",
+      "material_label": 6,
+      "voxel_count": 16,
+      "component_idx": 1
+    },
+    "7": {
+      "material": "unknown_7",
+      "material_label": 7,
+      "voxel_count": 5721,
+      "component_idx": 1
+    },
+    "8": {
+      "material": "unknown_8",
+      "material_label": 8,
+      "voxel_count": 233,
+      "component_idx": 1
+    },
+    "9": {
+      "material": "unknown_9",
+      "material_label": 9,
+      "voxel_count": 271,
+      "component_idx": 1
+    },
+    "10": {
+      "material": "unknown_10",
+      "material_label": 10,
+      "voxel_count": 77,
+      "component_idx": 1
+    },
+    "11": {
+      "material": "unknown_11",
+      "material_label": 11,
+      "voxel_count": 21,
+      "component_idx": 1
+    },
+    "12": {
+      "material": "unknown_12",
+      "material_label": 12,
+      "voxel_count": 3614,
+      "component_idx": 1
+    },
+    "13": {
+      "material": "unknown_13",
+      "material_label": 13,
+      "voxel_count": 23,
+      "component_idx": 1
+    },
+    "14": {
+      "material": "unknown_14",
+      "material_label": 14,
+      "voxel_count": 1307,
+      "component_idx": 1
+    },
+    "15": {
+      "material": "unknown_15",
+      "material_label": 15,
+      "voxel_count": 98,
+      "component_idx": 1
+    },
+    "16": {
+      "material": "unknown_16",
+      "material_label": 16,
+      "voxel_count": 345,
+      "component_idx": 1
+    },
+    "17": {
+      "material": "unknown_17",
+      "material_label": 17,
+      "voxel_count": 231,
+      "component_idx": 1
+    },
+    "18": {
+      "material": "unknown_18",
+      "material_label": 18,
+      "voxel_count": 13,
+      "component_idx": 1
+    },
+    "19": {
+      "material": "unknown_19",
+      "material_label": 19,
+      "voxel_count": 51,
+      "component_idx": 1
+    },
+    "20": {
+      "material": "unknown_20",
+      "material_label": 20,
+      "voxel_count": 16,
+      "component_idx": 1
+    },
+    "21": {
+      "material": "unknown_21",
+      "material_label": 21,
+      "voxel_count": 52,
+      "component_idx": 1
+    },
+    "22": {
+      "material": "unknown_22",
+      "material_label": 22,
+      "voxel_count": 126,
+      "component_idx": 1
+    },
+    "23": {
+      "material": "unknown_23",
+      "material_label": 23,
+      "voxel_count": 26,
+      "component_idx": 1
+    },
+    "24": {
+      "material": "unknown_24",
+      "material_label": 24,
+      "voxel_count": 11062,
+      "component_idx": 1
+    },
+    "25": {
+      "material": "unknown_25",
+      "material_label": 25,
+      "voxel_count": 1840,
+      "component_idx": 1
+    },
+    "26": {
+      "material": "unknown_26",
+      "material_label": 26,
+      "voxel_count": 10602,
+      "component_idx": 1
+    },
+    "27": {
+      "material": "unknown_27",
+      "material_label": 27,
+      "voxel_count": 758,
+      "component_idx": 1
+    },
+    "28": {
+      "material": "unknown_28",
+      "material_label": 28,
+      "voxel_count": 758,
+      "component_idx": 1
+    },
+    "29": {
+      "material": "unknown_29",
+      "material_label": 29,
+      "voxel_count": 841,
+      "component_idx": 1
+    },
+    "30": {
+      "material": "unknown_30",
+      "material_label": 30,
+      "voxel_count": 841,
+      "component_idx": 1
+    },
+    "31": {
+      "material": "unknown_31",
+      "material_label": 31,
+      "voxel_count": 24036,
+      "component_idx": 1
+    },
+    "32": {
+      "material": "unknown_32",
+      "material_label": 32,
+      "voxel_count": 758,
+      "component_idx": 1
+    },
+    "33": {
+      "material": "unknown_33",
+      "material_label": 33,
+      "voxel_count": 758,
+      "component_idx": 1
+    },
+    "34": {
+      "material": "unknown_34",
+      "material_label": 34,
+      "voxel_count": 841,
+      "component_idx": 1
+    },
+    "35": {
+      "material": "unknown_35",
+      "material_label": 35,
+      "voxel_count": 841,
+      "component_idx": 1
+    },
+    "36": {
+      "material": "unknown_36",
+      "material_label": 36,
+      "voxel_count": 31948,
+      "component_idx": 1
+    },
+    "37": {
+      "material": "unknown_37",
+      "material_label": 37,
+      "voxel_count": 5402,
+      "component_idx": 1
+    }
+  },
+  "case_0002.nii": {},
+  "case_0000.nii": {
+    "1": {
+      "material": "aluminum",
+      "material_label": 1,
+      "voxel_count": 7622,
+      "component_idx": 1
+    },
+    "2": {
+      "material": "plastic",
+      "material_label": 2,
+      "voxel_count": 1064,
+      "component_idx": 1
+    },
+    "3": {
+      "material": "steel",
+      "material_label": 3,
+      "voxel_count": 40,
+      "component_idx": 1
+    },
+    "4": {
+      "material": "air",
+      "material_label": 4,
+      "voxel_count": 50,
+      "component_idx": 1
+    },
+    "5": {
+      "material": "unknown_5",
+      "material_label": 5,
+      "voxel_count": 24,
+      "component_idx": 1
+    },
+    "6": {
+      "material": "unknown_6",
+      "material_label": 6,
+      "voxel_count": 10,
+      "component_idx": 1
+    },
+    "7": {
+      "material": "unknown_7",
+      "material_label": 7,
+      "voxel_count": 15,
+      "component_idx": 1
+    },
+    "8": {
+      "material": "unknown_8",
+      "material_label": 8,
+      "voxel_count": 231,
+      "component_idx": 1
+    },
+    "9": {
+      "material": "unknown_9",
+      "material_label": 9,
+      "voxel_count": 11,
+      "component_idx": 1
+    },
+    "10": {
+      "material": "unknown_10",
+      "material_label": 10,
+      "voxel_count": 37,
+      "component_idx": 1
+    },
+    "11": {
+      "material": "unknown_11",
+      "material_label": 11,
+      "voxel_count": 44,
+      "component_idx": 1
+    },
+    "12": {
+      "material": "unknown_12",
+      "material_label": 12,
+      "voxel_count": 14,
+      "component_idx": 1
+    },
+    "13": {
+      "material": "unknown_13",
+      "material_label": 13,
+      "voxel_count": 370,
+      "component_idx": 1
+    }
+  },
+  "case_0004.nii": {
+    "1": {
+      "material": "aluminum",
+      "material_label": 1,
+      "voxel_count": 5533,
+      "component_idx": 1
+    }
+  }
+}
