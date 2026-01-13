@@ -221,7 +221,7 @@ class InstanceLabelPreprocessor:
             elif label_file.suffix == '.npz':
                 data = np.load(label_file)
                 original_labels = data['label'] if 'label' in data else data['arr_0']
-            elif label_file.suffix == '.nii' or label_file.suffixes == ['.nii', '.gz']:
+            elif label_file.suffix in ['.nii', '.gz', '.nii.gz']:
                 nii = nib.load(str(label_file))
                 original_labels = nii.get_fdata().astype(np.uint8)
                 affine = nii.affine
@@ -229,19 +229,24 @@ class InstanceLabelPreprocessor:
                 print(f"  ⚠ Skipping unsupported format: {label_file}")
                 continue
 
-            
             # Konvertiere zu Instances
             instance_labels, instance_info = self.split_into_instances(
                 original_labels,
                 connectivity=connectivity
             )
-            
-            # Speichere
+
+            # Speichere als .npy
             output_file = output_folder / f"{label_file.stem}_instances.npy"
             np.save(output_file, instance_labels)
-            
+
+            # Speichere als NIfTI direkt hier in der Schleife
+            out_nii = nib.Nifti1Image(instance_labels.astype(np.uint32), affine)
+            nib.save(out_nii, output_file.with_suffix('.nii.gz'))
+
             # Metadaten
             all_instance_info[label_file.stem] = instance_info
+
+
         
         # Speichere globale Metadaten
         if save_info:
@@ -369,12 +374,8 @@ def quick_test():
 
 if __name__ == '__main__':
     from pathlib import Path
-    label_folder = Path(
-        r"C:\Users\hollm\OneDrive\Desktop\Forschungsprojekt_Train\Dataset\Dataset_0001\labelsTr"
-    )
-    output_folder = Path(
-        r"C:\Users\hollm\OneDrive\Desktop\Forschungsprojekt_Train\Dataset\Dataset_0001\instancesTr"
-    )
+    label_folder = Path("/zhome/hollms/TrainerTest/Dataset/Dataset001_CT_Scans/labelsTr")
+    output_folder = Path("/zhome/hollms/TrainerTest/Dataset/Dataset001_CT_Scans/instancesTr")
 
     preprocessor = InstanceLabelPreprocessor()
     preprocessor.setup_materials({

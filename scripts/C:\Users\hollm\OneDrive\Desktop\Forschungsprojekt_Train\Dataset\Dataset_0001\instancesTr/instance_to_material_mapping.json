@@ -1,0 +1,10 @@
+{
+  "instance_to_material": {},
+  "material_to_label": {
+    "background": 0,
+    "aluminum": 1,
+    "plastic": 2,
+    "steel": 3,
+    "air": 4
+  }
+}
