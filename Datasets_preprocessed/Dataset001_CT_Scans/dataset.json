@@ -1,0 +1,16 @@
+{
+  "name": "MyInstanceDataset",
+  "description": "Instance segmentation dataset",
+  "channel_names": {
+    "0": "CT"
+  },
+  "labels": {
+    "background": 0,
+    "aluminum": 1,
+    "plastic": 2,
+    "steel": 3,
+    "air": 4
+  },
+  "numTraining": 2,
+  "file_ending": ".nii.gz"
+}
